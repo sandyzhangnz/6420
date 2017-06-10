@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Home</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/booksite.css">
+
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+  <script type='text/javascript' src="js/jquery.mycart.js"></script>
+	<script type='text/javascript' src="js/cart.js"></script>
+  <script src="js/home.js"></script>
+</head>
+
+<body>
+  <!-- Menubar -->
+  <div class="headerFooter">
+    <ul id="logo">
+      <li><a href="bookIndex.html">Auckland City Books</a></li>
+    </ul>
+
+    <ul id="nav">
+      <a href="bookIndex.html">Home</a>
+      <a href="product.html">Books</a>
+      <a href="about.html">About US</a>
+      <a href="membership.html">Membership</a>
+      <a href="underDeveloping.html">Login</a>
+      </ul>
+
+    <ul id="cart">
+      <a><span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span></a>
+    </ul>
+
+    <div style="clear:both"></div>
+  </div>
+  <!-- Menubar End-->
+  <!-- Page Content -->
+  <div class="container">
+    <!-- Gallery Show -->
+    <div class="multimedia">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/images1.jpg" alt="images1" class="img-responsive" />
+          </div>
+          <div class="item">
+            <img src="images/images2.jpg" alt="images2" class="img-responsive" />
+          </div>
+          <div class="item">
+            <img src="images/images3.jpg" alt="images3" class="img-responsive" />
+          </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+      </div>
+    </div>
+    <!-- Gallery Show End-->
+
+    <div class="content">
+      <!-- Intro Content -->
+      <div class="title">
+        <p>Welcome to Auckland City Books</p>
+      </div>
+      <div class="subtitle">
+        <p>Auckland City Books was established in 1971 and our book shops are in every little town in New Zealand. We stock books on a wide variety of subjects including Art, Drama, Humour, Music, Photography, Biography, Sports, Business, Careers, Investing,
+          Cooking and Food, Education, Fiction and Poetry, Travel, Health and Self-Help, Medicine, Nutrition, Psychology, Recovery and Addiction, Relationships, Gardening, Interior Design, Sustainable Living, Humanities. </p>
+      </div>
+      <!-- Intro Content End-->
+
+      <!-- Featured Items -->
+      <div class="title">
+        <h1>Polular Books</h1>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div id="feauredBooks">
+          <!-- display products by Javascript -->
+        </div>
+      </div>
+      <!-- Featured Items End-->
+
+      <!-- Onsale Items -->
+      <div class="title">
+        <h1>Onsale Books</h1>
+      </div>
+      <hr>
+
+      <div class="row">
+        <div id="onsaleBooks">
+          <!-- display products by Javascript -->
+        </div>
+      </div>
+      <!-- Onsale Items End-->
+    </div>
+  </div>
+  <!-- Page Content End-->
+
+  <!-- Footer -->
+  <div class="headerFooter">
+    <ul id="footer">Internet and Website Development, Semester 1, 2017.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; Sandy Zhang, Sue Wu
+    </ul>
+  </div>
+  <!-- Footer End -->
+</body>
+</html>

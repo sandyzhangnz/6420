@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/booksite.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap-theme.css" /> -->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/product.js"></script>
+  <!-- <script type='text/javascript' src="js/jquery.mycart.js"></script>
+  <script type="text/javascript" src="js/cart.js"></script> -->
+</head>
+
+<body>
+  <!-- Menubar -->
+  <div class="headerFooter">
+    <ul id="logo">
+      <li><a href="bookIndex.html">Auckland City Books</a></li>
+    </ul>
+
+    <ul id="nav">
+      <a href="bookIndex.html">Home</a>
+      <a href="product.html">Books</a>
+      <a href="about.html">About US</a>
+      <a><span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span></a>
+    </ul>
+
+    <ul id="login">
+      <a href="membership.html">Register</a>
+      <a href="underDeveloping.html">Login</a>
+    </ul>
+
+    <div style="clear:both"></div>
+  </div>
+  <!-- Menubar End-->
+
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="content">
+      <!-- Product -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="title">Books</div>
+          <div class="subtitle">
+            <p>We stock books on a wide variety of subjects including Art, Drama, Humour, Music, Photography, Biography, Sports, Business, Careers, Investing, Cooking and Food, Education, Fiction and Poetry, Travel, Health and Self-Help, Medicine, Nutrition,
+              Psychology, Recovery and Addiction, Relationships, Gardening, Interior Design, Sustainable Living, Humanities.</p>
+          </div>
+        </div>
+      </div>
+
+        <!-- Category Tabs -->
+        <ul id="myTab" class="nav nav-tabs nav-justified">
+          <li class="active"><a href="#All" data-toggle="tab">All</a>
+          </li>
+          <li class=""><a href="#Fiction" data-toggle="tab">Fiction</a>
+          </li>
+          <li class=""><a href="#Education" data-toggle="tab">Education</a>
+          </li>
+          <li class=""><a href="#Health" data-toggle="tab">Health</a>
+          </li>
+          <li class=""><a href="#Travel" data-toggle="tab">Travel</a>
+          </li>
+          <li class=""><a href="#Sports" data-toggle="tab">Sports</a>
+          </li>
+        </ul>
+        <br>
+        <!-- Category Tabs End -->
+
+          <!-- Category -->
+          <div id="bookCategory">
+            <!-- display products by Javascript -->
+          </div>
+          <!-- Category End-->
+      <!-- Product End-->
+    </div>
+  </div>
+  <!-- Page Content End-->
+
+  <!-- Footer -->
+  <div class="headerFooter">
+    <ul id="footer">Internet and Website Development, Semester 1, 2017.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; Sandy Zhang, Sue Wu
+    </ul>
+  </div>
+  <!-- Footer End -->
+
+  <script type='text/javascript' src="js/jquery.mycart.js"></script>
+  <script type="text/javascript">
+  $(function () {
+
+    var goToCartIcon = function($addTocartBtn){
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      $addTocartBtn.prepend($image);
+      var position = $cartIcon.position();
+      $image.animate({
+        top: position.top,
+        left: position.left
+      }, 500 , "linear", function() {
+        $image.remove();
+      });
+    }
+
+    $('.my-cart-btn').myCart({
+      currencySymbol: '$',
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      classProductQuantity: 'my-product-quantity',
+      classProductRemove: 'my-product-remove',
+      classCheckoutCart: 'my-cart-checkout',
+      affixCartIcon: true,
+      showCheckoutModal: true,
+      numberOfDecimals: 2,
+      cartItems: [
+
+      ],
+      clickOnAddToCart: function($addTocart){
+        goToCartIcon($addTocart);
+      },
+      afterAddOnCart: function(products, totalPrice, totalQuantity) {
+        console.log("afterAddOnCart", products, totalPrice, totalQuantity);
+      },
+      clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+        console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
+      },
+      checkoutCart: function(products, totalPrice, totalQuantity) {
+        var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
+        checkoutString += "\n\n name \t price \t image path";
+        $.each(products, function(){
+          checkoutString += ("\n " + this.name + " \t " + this.price + " \t " + this.image);
+        });
+        alert(checkoutString)
+        console.log("checking out", products, totalPrice, totalQuantity);
+      },
+      getDiscountPrice: function(products, totalPrice, totalQuantity) {
+        console.log("calculating discount", products, totalPrice, totalQuantity);
+        return totalPrice * 0.7;
+      }
+    });
+
+  });
+  </script>
+
+</body>
+</html>

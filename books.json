@@ -1,0 +1,260 @@
+[{
+    "id": "1",
+    "name": "The Barefoot Investor",
+    "category": "Fiction",
+    "description": "This is the only money guide you will ever need That's a bold claim, given there are already thousands of finance books on the shelves. So what makes this one different? Well, you will not be overwhelmed with a bunch of tips ? or a strict budget (that you will not follow). You will get a step-by-step formula: open this account, then do this; call this person.",
+    "image": "images/book01.jpg",
+    "popularity": "mid",
+    "onsale": "no",
+    "price": "22.59"
+  },
+  {
+    "id": "2",
+    "name": "Visible Learning for Teachers",
+    "category": "Education",
+    "description": "John Hattie is ground-breaking book Visible Learning synthesised the results of more than fifteen years research involving millions of students and represented the biggest ever collection of evidence-based research into what actually works in schools to improve learning. Visible Learning for Teachers takes the next step and brings those ground breaking concepts to a completely new audience.",
+    "image": "images/book02.jpg",
+    "popularity": "low",
+    "onsale": "yes",
+    "price": "12.99"
+  },
+  {
+    "id": "3",
+    "name": "Minimalist's Everyday Cooking",
+    "category": "Education",
+    "description": "The highly anticipated cookbook from the immensely popular food blog Minimalist Baker, featuring 101 all-new simple, vegan recipes that all require 10 ingredients or less, 1 bowl or 1 pot, or 30 minutes or less to prepare Dana Shultz founded the Minimalist Baker blog in 2012 to share her passion for simple cooking and quickly gained a devoted worldwide following.",
+    "image": "images/book03.jpg",
+    "popularity": "mid",
+    "onsale": "no",
+    "price": "33.09"
+  },
+  {
+    "id": "4",
+    "name": "Modern Sugar Flowers",
+    "category": "Education",
+    "description": "Learn the secrets of sugar floristry with Petalsweet Cakes founder Jacqueline Butler. In her exquisite and long-awaited debut book, you'll learn in step-by-step detail how to create modern and sophisticated, stylized sugar flowers, and how to use them to create beautiful arrangements on wedding and celebration cakes.",
+    "image": "images/book04.jpg",
+    "popularity": "low",
+    "onsale": "yes",
+    "price": "30.79"
+  },
+  {
+    "id": "5",
+    "name": "Yoga Anatomy",
+    "category": "Health",
+    "description": "This is the ultimate reference for yoga practitioners, instructors and enthusiasts alike! The best-selling anatomy guide for yoga is now updated, expanded and better than ever! With more asanas, vinyasas, full-colour anatomical illustrations and in-depth information, the second edition of Yoga Anatomy provides you with a deeper understanding of the structures and principles underlying each movement and of yoga itself.",
+    "image": "images/book05.jpg",
+    "popularity": "high",
+    "onsale": "no",
+    "price": "22.98"
+  },
+  {
+    "id": "6",
+    "name": "Traveling with Ghosts",
+    "category": "Health",
+    "description": "A brave and necessary record of love, as beautiful as it is heartbreaking Ann Patchett, author of Commonwealth A cross between H is for Hawk and Wild, this beautifully written tale follows Fowler's travels through Eastern Europe after her fiance was killed by a jellyfish Stylist 'Gloriously rendered, beautifully written, but utterly devastating ...an intimate Thailand.",
+    "image": "images/book06.jpg",
+    "popularity": "high",
+    "onsale": "yes",
+    "price": "24.81"
+  },
+  {
+    "id": "7",
+    "name": "Destinations of a Lifetime",
+    "category": "Travel",
+    "description": "National Geographic takes you on a photographic tour of the worlds most spectacular destinations, inspiring tangible ideas for your next trip. Hundreds of the most breathtaking locales both natural and man-made are illustrated with vivid images taken by the organization's world-class photographers.",
+    "image": "images/t01.jpg",
+    "popularity": "high",
+    "onsale": "no",
+    "price": "23.99"
+  },
+  {
+    "id": "8",
+    "name": "Journeys of a Lifetime",
+    "category": "Travel",
+    "description": "A timely resource for the burgeoning ranks of active travelers who crave adventurous and far-flung trips, Journeys of a Lifetime provides scores of creative ideas: trekking the heights of Mt. Kilimanjaro in Tanzania... mountain biking in Transylvania... driving through the scenic highlands of Scotland... or rolling through the outback on Australia's famous Ghan train... and dozens of other intriguing options all over the world.",
+    "image": "images/t02.jpg",
+    "popularity": "low",
+    "onsale": "yes",
+    "price": "26.47"
+  },
+  {
+    "id": "9",
+    "name": "50 States, 5,000 Ideas",
+    "category": "Travel",
+    "description": "This richly illustrated book from the travel experts at National Geographic showcases the best travel experiences in every state, from the obvious to the unexpected. Sites include national parks, beaches, hotels, Civil War battlefields, dude ranches, out-of-the-way museums, and more. You'll discover the world's longest yard sale in Tennessee, swamp tours in Louisiana, dinosaur trails in Colorado",
+    "image": "images/t03.jpg",
+    "popularity": "mid",
+    "onsale": "no",
+    "price": "14.84"
+  },
+  {
+    "id": "10",
+    "name": "Lonely Planet Iceland",
+    "category": "Travel",
+    "description": "Lonely Planet Iceland is your passport to the most relevant, up-to-date advice on what to see and skip, and what hidden discoveries await you. Splash around in the Blue Lagoon's geothermal water, catch a glimpse of the celestial Northern Lights, or take a boat trip among the icebergs; all with your trusted travel companion. Get to the heart of Iceland and begin your journey now!",
+    "image": "images/t04.jpg",
+    "popularity": "low",
+    "onsale": "yes",
+    "price": "18.16"
+  },
+  {
+    "id": "11",
+    "name": "No-Nonsense Algebra",
+    "category": "Education",
+    "description": "Award-winning teacher and author, Richard W. Fisher, shares his dynamic teaching style with students. Winner of the Intel Innovations in Teaching Award, Fisher knows what it takes for students to master Algebra. The easy-to-follow text combined with the online tutorial videos, make Nonsense Algebra a can't miss approach to mastering algebra.",
+    "image": "images/e01.jpg",
+    "popularity": "mid",
+    "onsale": "yes",
+    "price": "32.59"
+  },
+  {
+    "id": "12",
+    "name": "Essential Math Skills",
+    "category": "Education",
+    "description": "This program was written by a teacher for teachers, tutors, and most importantly students. Even parents who have difficulty with math will be able to do a fine job of tutoring their children. --This text refers to an out of print or unavailable edition of this title.Richard W. Fisher, America's math teacher, is an award-winning teacher and author. ",
+    "image": "images/e02.jpg",
+    "popularity": "mid",
+    "onsale": "no",
+    "price": "19.24"
+  },
+  {
+    "id": "13",
+    "name": "Creative Schools",
+    "category": "Education",
+    "description": "A revolutionary reappraisal of how to educate our children and young people by Ken Robinson, the New York Times bestselling author of The Element and Finding Your Element.Ken Robinson is one of the worlds most influential voices in education, and his 2006 TED Talk on the subject is the most viewed in the organizations history. ",
+    "image": "images/e03.jpg",
+    "popularity": "mid",
+    "onsale": "no",
+    "price": "14.84"
+  },
+  {
+    "id": "14",
+    "name": "Teaching to Transgress",
+    "category": "Education",
+    "description": "In Teaching to Transgress,bell hooks--writer, teacher, and insurgent black intellectual--writes about a new kind of education, education as the practice of freedom.  Teaching students to transgress against racial, sexual, and class boundaries in order to achieve the gift of freedom is,  for hooks, the teacher's most important goal.",
+    "image": "images/e04.jpg",
+    "popularity": "low",
+    "onsale": "no",
+    "price": "29.80"
+  },
+  {
+    "id": "15",
+    "name":"Dark Matters",
+    "category":"Fiction",
+    "description":"In the not so distant future, the ber-elites quietly control most politicians, corporations, media outlets, banks, and research institutions. They search for a stable end game that balances the after-effects of climate change and dwindling natural resources against the needs of a ten-billion-plus population.",
+    "image":"images/f01.jpg",
+    "popularity":"high",
+    "onsale":"no",
+    "price":"24.99"
+  },
+  {
+    "id": "16",
+    "name":"Galactic Frontiers",
+    "category":"Fiction",
+    "description":"An epic anthology of space opera and military science fiction stories! From the far reaches of space to the interiors of the human soul. Journey to dystopian futures where humanity fights for survival beyond Earth against overwhelming alien forces. Travel to the galactic fringe where you either kill and get paid or die and stay broke.",
+    "image":"images/f02.jpg",
+    "popularity":"mid",
+    "onsale":"no",
+    "price":"24.99"
+  },
+  {
+    "id": "17",
+    "name":"Beartown",
+    "category":"Fiction",
+    "description":"It is a domestic drama in which a family is pulled apart by an act of violence. It is a coming-of-age story for a young woman who must choose to speak out or keep silent. It is a slow-build thriller, ",
+    "image":"images/f03.jpg",
+    "popularity":"high",
+    "onsale":"yes",
+    "price":"16.11"
+  },
+  {
+    "id": "18",
+    "name":"Anything Is Possible",
+    "category":"Fiction",
+    "description":"NEW YORK TIMES BESTSELLER.An unforgettable cast of small-town characters copes with love and loss in this new work of fiction by #1 bestselling author and Pulitzer Prize winner Elizabeth Strout.",
+    "image":"images/f04.jpg",
+    "popularity":"mid",
+    "onsale":"no",
+    "price":"16.99"
+  },
+  {
+    "id": "19",
+    "name":"Self-Care Is The New Health-Care",
+    "category":"Health",
+    "description":"Antidepressants are being handed out like candy without looking closer at the root cause,and that is a HUGE problem that needs to be highlighted and discussed. ",
+    "image":"images/h01.jpg",
+    "popularity":"mid",
+    "onsale":"no",
+    "price":"14.99"
+  },
+  {
+    "id": "20",
+    "name":"Health Habits",
+    "category":"Health",
+    "description":"Attaining happiness is not as simple as flicking a switch; it is a constant battle between conquering your fears, balancing your schedule and ultimately an act of sacrifice.Here is where things get better.",
+    "image":"images/h02.jpg",
+    "popularity":"low",
+    "onsale":"yes",
+    "price":"11.24"
+  },
+  {
+    "id": "21",
+    "name":"Health Promotion in Nursing Practice",
+    "category":"Health",
+    "description":"Health Promotion in Nursing Practice, Seventh Edition, provides a solid, up-to-date foundation for understanding and building the science and practice of health promotion.Introduces the major individual and community models.",
+    "image":"images/h03.jpg",
+    "popularity":"low",
+    "onsale":"no",
+    "price":"9.99"
+  },
+  {
+    "id": "22",
+    "name":"Health Journal",
+    "category":"Health",
+    "description":"Health Journal: Discover Food Intolerances and Allergies can help you identify your food triggers, allergens,and symptom patterns and can be used by you their symptoms are, how quickly they appear after eating, and which foods are causing the problem.",
+    "image":"images/h04.jpg",
+    "popularity":"high",
+    "onsale":"no",
+    "price":"12.80"
+  },
+  {
+    "id": "23",
+    "name":"The Sports Gene",
+    "category":"Sports",
+    "description":"In this controversial and engaging exploration of athletic success and the so-called 10,000-hour rule, David Epstein tackles the great nature vs. nurture debate and traces how far science has come in solving it. ",
+    "image":"images/s01.jpg",
+    "popularity":"high",
+    "onsale":"no",
+    "price":"26.99"
+  },
+  {
+    "id": "24",
+    "name":"Cavaliers",
+    "category":"Sports",
+    "description":"The first team from Cleveland to win a title in a major sport in 52 years, the first to come back from a 3-1 deficit in the Finals, and matched against arguably the best team in history,  he established himself as one of the game's true greats.",
+    "image":"images/s02.jpg",
+    "popularity":"mid",
+    "onsale":"yes",
+    "price":"19.99"
+  },
+  {
+    "id": "25",
+    "name":"SPORTS ILLUSTRATED Arnold Palmer",
+    "category":"Sports",
+    "description":"In a singular career that spanned six decades, Arnold Palmer The King defined himself not only by his brilliance on the golf course but also by a demeanor full of both charm and swagger. ",
+    "image":"images/s03.jpg",
+    "popularity":"mid",
+    "onsale":"no",
+    "price":"16.49"
+  },
+  {
+    "id": "26",
+    "name":"Sport Fish of the Atlantic",
+    "category":"Sports",
+    "description":"This handy book features 238 species, all illustrated in full color. Also included for each fish are detailed ranges, habitats, game quality, food quality and record sizes.",
+    "image":"images/s04.jpg",
+    "popularity":"high",
+    "onsale":"no",
+    "price":"14.99"
+  }]

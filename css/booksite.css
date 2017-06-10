@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none
+  }
+}
+
+.headerFooter
+{
+  clear: both;
+	height:60px;
+  background-color: #330066;
+  margin-top: 10;
+  margin-bottom: 10;
+	text-align:center;
+	border-bottom: solid;
+	border-bottom-color:#FFFFFF;
+  color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+  font-size:20px;
+}
+
+ul#logo{
+	float:left;
+	width:25%;
+  font-size:32px;
+  list-style-type: none;
+}
+
+#logo a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+    width: 350px;
+}
+
+ul#nav{
+  float:left;
+	width:60%;
+  list-style-type: none;
+}
+
+#nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+    width: 120px;
+}
+
+ul#cart{
+	float:left;
+	width:15%;
+  list-style-type: none;
+}
+
+#cart a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+    width: 80px;
+}
+
+/*#myTab{
+  background-color: #330066;
+  color: white;
+}*/
+
+ul#footer{
+  padding: 15px;
+}
+
+.multimedia{
+	/*width:100%;*/
+	background-color:#FFFFFF;
+	color:#FFFFFF;
+	font-size:30px;
+	font-weight:bolder;
+	text-align:center;
+  position:relative;
+	font-family: 'Pacifico', cursive;
+	}
+
+.content{
+	/*text-align:center;*/
+  position:relative;
+	font-size:11px;
+	padding-top:20px;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  margin-bottom: 20px;
+}
+
+.title{
+	text-align:center;
+  color:#cc0088;
+  font-family: 'Pacifico', cursive;
+	padding-top:20px;
+  font-size:48px;
+  font-weight:bold;
+}
+
+.subtitle{
+	text-align:left;
+  font-family: 'Abril Fatface', cursive;
+	padding-top:20px;
+  font-size:20px;
+  font-weight:normal;
+}
+
+iframe {
+min-height: 500px;
+width: 100%;
+border: none;
+margin:0 auto;
+}
+
+table th td {
+    color: #999;
+    border-top: none;
+    border-bottom: none;
+}
+
+.my-cart-icon-affix {
+  padding-top: 20px;
+	position: fixed;
+	z-index: 999;
+}
+
+.badge-notify{
+	background:red;
+	position:relative;
+	top: -20px;
+	right: 10px;
+}
+
+.my-cart-icon {
+  color: red;
+  padding-top: 20px;
+	position: fixed;
+	z-index: 999;
+}
